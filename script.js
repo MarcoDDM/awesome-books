@@ -15,11 +15,15 @@ function displayBooks() {
     author.textContent = book.author;
     div.appendChild(author);
     div.appendChild(document.createElement('br'));
+    div.appendChild(document.createElement('hr'));
+
 
     let removeBtn = document.createElement('button');
     removeBtn.textContent = 'Remove';
     div.appendChild(removeBtn);
     div.appendChild(document.createElement('br'));
+    div.appendChild(document.createElement('br'));
+
 
     removeBtn.addEventListener('click', () => removeBook(book.title));
 
