@@ -10,17 +10,16 @@
 
 <body>
   <h1>Awesome Books</h1>
-  <form>
-    <label for="title">Title:</label>
-    <input type="text" id="title" name="title"><br>
-    <label for="author">Author:</label>
-    <input type="text" id="author" name="author"><br>
-    <button type="button" id="add-btn">Add</button>
-    <button type="button" id="remove-btn">Remove</button>
-  </form>
-  <ul id="listbooks"></ul>
+  <div id="book-list"></div>
+
+  <form id="book-form">
+    <input for="title" type="text" id="title" required placeholder="Title"><br>
+    <input for="author" type="text" id="author" required placeholder="Author"><br>
+
+    <button type="submit">Add</button>
   </form>
 
   <script src="script.js"></script>
+</body>
 
 </html>
