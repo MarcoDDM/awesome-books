@@ -140,6 +140,11 @@ You can deploy this project using GitHub pages by pushing changes to the main br
 - GitHub: [@MarcoDDM](https://github.com/MarcoDDM)
 - LinkedIn: [Marco Almada](https://www.linkedin.com/in/marcoalmadaar)
 
+👤 **Jose Berbesi**
+
+- GitHub: [@imberbesi](https://github.com/imberbesi)
+- LinkedIn: [Jose Berbesi](https://www.linkedin.com/in/jlberbesi)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
