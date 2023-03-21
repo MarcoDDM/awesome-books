@@ -1,13 +1,12 @@
 let books = JSON.parse(localStorage.getItem('books')) || [];
 
 function displayBooks() {
-
   function removeBook(title) {
     books = books.filter((book) => book.title !== title);
     localStorage.setItem('books', JSON.stringify(books));
     displayBooks();
   }
-  
+
   const bookList = document.getElementById('book-list');
   bookList.innerHTML = '';
   books.forEach((book) => {
